@@ -34,9 +34,9 @@ function App() {
           </div>
         </aside>
         <figcaption className="relative">
-          <div className="bg-[#b956ff] opacity-60 brightness-50 contrast-125 absolute max-w-full h-full lg:rounded-r-lg"></div>
+          <div className="bg-[#b956ff] z-20 opacity-60 brightness-50 contrast-125 absolute w-full max-w-full h-full lg:rounded-r-lg"></div>
           <img
-            className="w-full max-w-[576px] lg:w-full lg:hidden block rounded-t-lg"
+            className="w-full max-w-[576px] lg:hidden block rounded-t-lg z-0"
             src={cardMobile}
             alt="Hero ofthe card"
           />
