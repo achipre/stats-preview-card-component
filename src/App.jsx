@@ -12,7 +12,7 @@ function App() {
             Discover the benefits of data analytics and make better decisions regarding revenue,
             customer experience, and overall efficiency.
           </p>
-          <div className="mt-9 mb-2 flex flex-col md:flex-row justify-between gap-[1.5rem] lg:items-end flex-grow lg:pl-1 lg:max-w-[82%] lg:mr-auto">
+          <div className="mt-9 mb-2 flex flex-col md:flex-row justify-between w-full gap-[1.5rem] lg:items-end flex-grow lg:pl-1 lg:max-w-[82%] lg:mr-auto">
             <div className="text-center lg:text-left">
               <p className="text-[1.45rem] lg:text-2xl font-[600] pb-1">10k+</p>
               <p className="uppercase text-xs text-stat-headings font-lexend [letter-spacing:.8px]">
