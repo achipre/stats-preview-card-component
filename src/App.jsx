@@ -4,15 +4,15 @@ function App() {
   return (
     <main className="flex justify-center items-center h-full">
       <article className="flex px-6 lg:px-4 flex-col-reverse lg:flex-row">
-        <aside className="bg-card-background  rounded-l-xl p-10 pt-10 lg:pt-[3.6rem] md:p-10 lg:p-16 xl:p-[4.5rem] max-w-[576px] flex flex-col items-center xl:pb-14">
+        <aside className="bg-card-background rounded-l-xl p-10 pt-14 lg:pt-16 md:p-10 lg:p-16 lg:pb-14 xl:p-[4.5rem] max-w-[576px] flex flex-col items-center xl:pb-14">
           <h1 className="text-[1.65rem] leading-[2rem] lg:text-[2.2rem] font-semibold text-wrap[balance] lg:leading-[2.8rem] lg:pl-1 [letter-spacing:.5px] text-center lg:text-left">
             Get <span className="text-soft-violet">insights</span> that help your business grow.
           </h1>
-          <p className="text-center lg:text-left text-[.92rem] leading-6 lg:text-[.94rem] text-stat-headings lg:pl-1 mt-[1rem] lg:mt-6 lg:w-[90%] lg:mr-auto lg:leading-[1.55rem]">
+          <p className="text-center lg:text-left text-[.92rem] leading-6 lg:text-[.94rem] text-stat-headings lg:pl-1 mt-[1rem] lg:mt-6 lg:max-w-[352px] xl:max-w-[90%] lg:mr-auto lg:leading-[1.55rem]">
             Discover the benefits of data analytics and make better decisions regarding revenue,
             customer experience, and overall efficiency.
           </p>
-          <div className="mt-9 mb-2 flex flex-col md:flex-row justify-between gap-[1.5rem] lg:items-end flex-grow lg:pl-1 lg:w-[82%] lg:mr-auto">
+          <div className="mt-9 mb-2 flex flex-col md:flex-row justify-between gap-[1.5rem] lg:items-end flex-grow lg:pl-1 lg:max-w-[82%] lg:mr-auto">
             <div className="text-center lg:text-left">
               <p className="text-[1.45rem] lg:text-2xl font-[600] pb-1">10k+</p>
               <p className="uppercase text-xs text-stat-headings font-lexend [letter-spacing:.8px]">
@@ -34,9 +34,9 @@ function App() {
           </div>
         </aside>
         <figcaption className="relative">
-          <div className="bg-[#b956ff] opacity-60 brightness-50 contrast-125 absolute w-full h-full lg:rounded-r-lg"></div>
+          <div className="bg-[#b956ff] opacity-60 brightness-50 contrast-125 absolute max-w-full h-full lg:rounded-r-lg"></div>
           <img
-            className="max-w-[576px] lg:w-full lg:hidden block rounded-t-lg"
+            className="w-full max-w-[576px] lg:w-full lg:hidden block rounded-t-lg"
             src={cardMobile}
             alt="Hero ofthe card"
           />
